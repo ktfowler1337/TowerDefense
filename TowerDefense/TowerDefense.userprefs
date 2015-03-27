@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Helpers\TowerManager.cs">
+    <Files>
+      <File FileName="Assets\Scripts\GUI\MainMenu.cs" Line="22" Column="20" />
+      <File FileName="Assets\Scripts\Helpers\TowerManager.cs" Line="61" Column="1" />
+      <File FileName="Assets\Scripts\Helpers\GridManager.cs" Line="30" Column="2" />
+      <File FileName="Assets\Scripts\Editor\TowerSetup.cs" Line="81" Column="49" />
+      <File FileName="Assets\Scripts\Editor\ProjectileSetup.cs" Line="66" Column="1" />
+      <File FileName="Assets\Scripts\Tower\RangeTrigger.cs" Line="32" Column="1" />
+      <File FileName="Assets\Scripts\Enemy\Properties.cs" Line="14" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
