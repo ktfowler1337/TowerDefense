@@ -112,6 +112,7 @@
      <Compile Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
      <Compile Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
      <Compile Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+     <None Include="Assets\Earthborn Troll\Shader\Alpha_Texture.shader" />
      <None Include="Assets\External Resources\3D Tower Defense Starter Kit\Textures\Projectors\Guidelines.txt" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
@@ -121,6 +122,7 @@
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\External Resources\3D Tower Defense Starter Kit\README.txt" />
@@ -201,7 +203,7 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>E:/Documents/GitHub/TowerDefense/TowerDefense/Assets/External Resources/3D Tower Defense Starter Kit/Scripts/HOTween/HOTween.dll</HintPath>
+ <HintPath>C:/Users/Matthew/Desktop/TowerDefense/TowerDefense/Assets/External Resources/3D Tower Defense Starter Kit/Scripts/HOTween/HOTween.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

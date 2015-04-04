@@ -62,6 +62,7 @@
      <Compile Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Editor\Water (Pro Only)\Water4\SpecularLightingEditor.cs" />
      <Compile Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Editor\Water (Pro Only)\Water4\WaterBaseEditor.cs" />
      <Compile Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Editor\Water (Pro Only)\Water4\WaterEditorUtility.cs" />
+     <None Include="Assets\Earthborn Troll\Shader\Alpha_Texture.shader" />
      <None Include="Assets\External Resources\3D Tower Defense Starter Kit\Textures\Projectors\Guidelines.txt" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
@@ -71,6 +72,7 @@
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Earthborn Troll\Shader\DoubleSided-Light-Spec.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\External Resources\3D Tower Defense Starter Kit\README.txt" />
@@ -154,10 +156,10 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>E:/Documents/GitHub/TowerDefense/TowerDefense/Assets/External Resources/3D Tower Defense Starter Kit/Scripts/HOTween/HOTween.dll</HintPath>
+ <HintPath>C:/Users/Matthew/Desktop/TowerDefense/TowerDefense/Assets/External Resources/3D Tower Defense Starter Kit/Scripts/HOTween/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="HOTweenV1_Editor">
- <HintPath>E:/Documents/GitHub/TowerDefense/TowerDefense/Assets/External Resources/3D Tower Defense Starter Kit/Scripts/HOTween/Editor/HOTweenV1_Editor.dll</HintPath>
+ <HintPath>C:/Users/Matthew/Desktop/TowerDefense/TowerDefense/Assets/External Resources/3D Tower Defense Starter Kit/Scripts/HOTween/Editor/HOTweenV1_Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
