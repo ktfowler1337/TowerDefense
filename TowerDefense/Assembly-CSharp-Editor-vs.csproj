@@ -150,7 +150,7 @@
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Matthew/Desktop/TowerDefense/TowerDefense/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>E:/Documents/GitHub/TowerDefense/TowerDefense/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/UnityEngine.UI.dll</HintPath>
@@ -159,10 +159,10 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.4/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>C:/Users/Matthew/Desktop/TowerDefense/TowerDefense/Assets/External Resources/3D Tower Defense Starter Kit/Scripts/HOTween/HOTween.dll</HintPath>
+ <HintPath>E:/Documents/GitHub/TowerDefense/TowerDefense/Assets/External Resources/3D Tower Defense Starter Kit/Scripts/HOTween/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="HOTweenV1_Editor">
- <HintPath>C:/Users/Matthew/Desktop/TowerDefense/TowerDefense/Assets/External Resources/3D Tower Defense Starter Kit/Scripts/HOTween/Editor/HOTweenV1_Editor.dll</HintPath>
+ <HintPath>E:/Documents/GitHub/TowerDefense/TowerDefense/Assets/External Resources/3D Tower Defense Starter Kit/Scripts/HOTween/Editor/HOTweenV1_Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

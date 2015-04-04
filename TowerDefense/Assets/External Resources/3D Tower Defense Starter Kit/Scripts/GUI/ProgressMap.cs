@@ -34,7 +34,7 @@ public class ProgressMap : MonoBehaviour
     public static void AddToMap(GameObject mapObjectPrefab, int objID)
     {
         //let PoolManager spawn the map icon prefab at the starting position of the map
-        GameObject newObj = PoolManager.Pools["PM_StartingPoint"].Spawn(mapObjectPrefab,
+		GameObject newObj = PoolManager.Pools["PM_StartingPoint"].Spawn(mapObjectPrefab,
                             Vector3.zero, Quaternion.identity);
 
         //get ProgressMapObject component of this map icon prefab
