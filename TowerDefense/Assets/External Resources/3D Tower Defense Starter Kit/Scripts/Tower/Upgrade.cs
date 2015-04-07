@@ -24,6 +24,7 @@ public class Upgrade : MonoBehaviour
     private TowerBase towerScript;  //towerbase reference
 
 
+
     void Start()
     {
         //don't execute further code when no upgrade options are defined but debug a warning

@@ -1,17 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUIImpl.cs">
     <Files>
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Enemy\TweenMove.cs" Line="76" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\ProgressMap.cs" Line="37" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUIImpl.cs" Line="277" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Examples\Advanced\Scripts\Adv_GUIImpl.cs" Line="227" Column="9" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Tower\TowerBase.cs" Line="85" Column="6" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Enemy\TweenMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\ProgressMap.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUIImpl.cs" Line="448" Column="23" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Examples\Advanced\Scripts\Adv_GUIImpl.cs" Line="274" Column="9" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Tower\Upgrade.cs" Line="26" Column="1" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUILogic.cs" Line="281" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="E:\Documents\GitHub\TowerDefense\TowerDefense\Assets\External Resources\3D Tower Defense Starter Kit\Examples\Advanced\Scripts\Adv_GUIImpl.cs" line="182" />
-      <Breakpoint file="E:\Documents\GitHub\TowerDefense\TowerDefense\Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUIImpl.cs" line="283" />
+      <Breakpoint file="E:\Documents\GitHub\TowerDefense\TowerDefense\Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUIImpl.cs" line="285" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

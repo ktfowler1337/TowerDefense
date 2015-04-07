@@ -268,6 +268,12 @@ public class GUIImpl : MonoBehaviour
         }
     }
 
+	void OnMouseDown()
+	{
+		GameObject tower = gui.currentTower;
+		ShowUpgradeMenu(tower);
+	}
+
 
     void ProcessTower()
     {
