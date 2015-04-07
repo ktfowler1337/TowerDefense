@@ -9,6 +9,7 @@ ModelImporter:
     3300000: //RootNode
     4300000: polySurface31
     4300002: polySurface636
+    6400000: //RootNode
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -29,9 +30,9 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1.20000005
+    globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
