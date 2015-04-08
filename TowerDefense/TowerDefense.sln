@@ -5,6 +5,8 @@ Project("{60FBD91D-1A62-011B-FA5F-D3449947B666}") = "TowerDefense", "Assembly-CS
 EndProject
 Project("{60FBD91D-1A62-011B-FA5F-D3449947B666}") = "TowerDefense", "Assembly-CSharp-Editor.csproj", "{5B0839AC-493A-789D-F07F-9FFD49BD7BE2}"
 EndProject
+Project("{60FBD91D-1A62-011B-FA5F-D3449947B666}") = "TowerDefense", "Assembly-UnityScript-firstpass.unityproj", "{F47AF338-7682-8375-581E-D61D5164C239}"
+EndProject
 Project("{60FBD91D-1A62-011B-FA5F-D3449947B666}") = "TowerDefense", "Assembly-UnityScript.unityproj", "{5F95D981-FB5B-ACB3-C256-4D61F2AF9A70}"
 EndProject
 Project("{60FBD91D-1A62-011B-FA5F-D3449947B666}") = "TowerDefense", "Assembly-UnityScript-Editor.unityproj", "{4A4B8B4E-52C8-47FD-6AB8-55F7103A9531}"
@@ -23,6 +25,10 @@ Global
 		{5B0839AC-493A-789D-F07F-9FFD49BD7BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B0839AC-493A-789D-F07F-9FFD49BD7BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B0839AC-493A-789D-F07F-9FFD49BD7BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47AF338-7682-8375-581E-D61D5164C239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47AF338-7682-8375-581E-D61D5164C239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47AF338-7682-8375-581E-D61D5164C239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47AF338-7682-8375-581E-D61D5164C239}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5F95D981-FB5B-ACB3-C256-4D61F2AF9A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F95D981-FB5B-ACB3-C256-4D61F2AF9A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F95D981-FB5B-ACB3-C256-4D61F2AF9A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,7 +41,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																															GlobalSection(MonoDevelopProperties) = preSolution
+																																						GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

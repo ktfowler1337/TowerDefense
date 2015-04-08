@@ -79,6 +79,7 @@
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
@@ -94,7 +95,6 @@
      <None Include="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\HOTween\HOTween_License.txt" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
-     <None Include="Assets\External Resources\3D Tower Defense Starter Kit\Examples\Advanced\Atlas\Aldrich_Sci-Fi.txt" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
@@ -146,6 +146,9 @@
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\External Resources\MOBA and Tower Defense\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>E:/Documents/GitHub/TowerDefense/TowerDefense/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="Assembly-UnityScript">
  <HintPath>E:/Documents/GitHub/TowerDefense/TowerDefense/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>

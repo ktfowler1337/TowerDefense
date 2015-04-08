@@ -1,14 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUIImpl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\External Resources\MOBA and Tower Defense\info.txt">
     <Files>
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Tower\TowerBase.cs" Line="85" Column="6" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Enemy\Properties.cs" Line="444" Column="1" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Tower\TowerBase.cs" Line="1" Column="1" />
       <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Enemy\TweenMove.cs" Line="1" Column="1" />
       <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\ProgressMap.cs" Line="1" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUIImpl.cs" Line="448" Column="23" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Examples\Advanced\Scripts\Adv_GUIImpl.cs" Line="274" Column="9" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Tower\Upgrade.cs" Line="26" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUILogic.cs" Line="281" Column="21" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUIImpl.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Tower\Upgrade.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUILogic.cs" Line="1" Column="1" />
+      <File FileName="Assets\External Resources\MOBA and Tower Defense\info.txt" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
