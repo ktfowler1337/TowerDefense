@@ -1,5 +1,5 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\External Resources\MOBA and Tower Defense\info.txt">
     <Files>
       <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Enemy\Properties.cs" Line="444" Column="1" />
