@@ -5,7 +5,7 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 3
+  serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
   - 135: {fileID: 13500000}
@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1002 &100001
 EditorExtensionImpl:
   serializedVersion: 6
@@ -34,6 +34,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1002 &400001
 EditorExtensionImpl:
   serializedVersion: 6
@@ -55,6 +56,8 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1002 &2300001
 EditorExtensionImpl:
   serializedVersion: 6
@@ -91,16 +94,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60a593ba06ba40444a23262b907f60ef, type: 1}
+  m_Script: {fileID: 11500000, guid: 60a593ba06ba40444a23262b907f60ef, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   target: {fileID: 0}
   damage: 0
   followEnemy: 1
   flyMode: 1
   lobHeight: 4
-  speed: 2
+  speed: 3
   continuousCollision: 0
-  impactSound: {fileID: 8300000, guid: d718f7541a1656c4fabaf19c2e9fbeaa, type: 1}
+  impactSound: {fileID: 8300000, guid: d718f7541a1656c4fabaf19c2e9fbeaa, type: 3}
   singleDMG: 1
   timeToLast: 0
   explosion:
