@@ -115,20 +115,20 @@ public class CameraControl : MonoBehaviour
             {
                 //if desired direction key is pressed and camera is still within world limit bounds,
                 //translate camera position in this direction, in time, with given speed, in world space.
-                if (Input.GetKey("right") && CheckBounds(transform.right))
+                if ((Input.GetKey("right") || Input.GetKey(KeyCode.D)) && CheckBounds(transform.right))
                 {
                     transform.Translate(transform.right * Time.deltaTime * scrollSpeed, Space.World);
                 }
-                else if (Input.GetKey("left") && CheckBounds(-transform.right))
+				else if ((Input.GetKey("left") || Input.GetKey(KeyCode.A)) && CheckBounds(-transform.right))
                 {
                     transform.Translate(transform.right * Time.deltaTime * -scrollSpeed, Space.World);
                 }
 
-                if (Input.GetKey("up") && CheckBounds(transform.forward))
+				if ((Input.GetKey("up") || Input.GetKey(KeyCode.W)) && CheckBounds(transform.forward))
                 {
                     transform.Translate(transform.forward * Time.deltaTime * scrollSpeed, Space.World);
                 }
-                else if (Input.GetKey("down") && CheckBounds(-transform.forward))
+				else if ((Input.GetKey("down") || Input.GetKey(KeyCode.S)) && CheckBounds(-transform.forward))
                 {
                     transform.Translate(transform.forward * Time.deltaTime * -scrollSpeed, Space.World);
                 }

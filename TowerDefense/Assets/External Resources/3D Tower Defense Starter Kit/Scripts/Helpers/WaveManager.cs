@@ -13,6 +13,12 @@ using System.Collections.Generic;
 [System.Serializable]
 public class WaveManager : MonoBehaviour
 {
+	public GameObject enemyPreb;
+	
+	public PathManager Path1;
+	
+	public PathManager Path2;
+
     //store wave properties, this is a list of an own class (see below)
     [HideInInspector]
     public List<WaveOptions> options = new List<WaveOptions>();
@@ -445,6 +451,39 @@ public class WaveManager : MonoBehaviour
                     return;
                 break;
         }
+
+		options = new List<WaveOptions>();	
+		
+		for (int x = 0; x < 5; x++) 
+		{
+			//create new wave option
+			WaveOptions newWave = new WaveOptions();
+			//initialize first row / creep of the new wave
+			newWave.enemyPrefab.Add(enemyPreb);
+			int enemyCount = (x + 10) + UnityEngine.Random.Range(1,10);
+			newWave.enemyCount.Add(enemyCount);
+			newWave.path.Add(Path1);
+			newWave.enemyHP.Add(0);
+			newWave.enemySH.Add(0);
+			newWave.startDelayMin.Add(UnityEngine.Random.Range(0.5f,1.5f));
+			newWave.startDelayMax.Add(UnityEngine.Random.Range(1.6f,4.5f));
+			newWave.delayBetweenMin.Add(UnityEngine.Random.Range(0.1f,1.5f));
+			newWave.delayBetweenMax.Add(UnityEngine.Random.Range(1.6f,6.5f));
+			
+			//initialize first row / creep of the new wave
+			newWave.enemyPrefab.Add(enemyPreb);
+			enemyCount = (x + 10) + UnityEngine.Random.Range(1,10);
+			newWave.enemyCount.Add(enemyCount);
+			newWave.path.Add(Path2);
+			newWave.enemyHP.Add(0);
+			newWave.enemySH.Add(0);
+			newWave.startDelayMin.Add(UnityEngine.Random.Range(0.5f,1.5f));
+			newWave.startDelayMax.Add(UnityEngine.Random.Range(1.6f,4.5f));
+			newWave.delayBetweenMin.Add(UnityEngine.Random.Range(0.1f,1.5f));
+			newWave.delayBetweenMax.Add(UnityEngine.Random.Range(1.6f,6.5f));
+			//add new wave option to wave list
+			options.Add(newWave);
+		}
         
         //loop through each wave
         for (int i = 0; i < options.Count; i++)

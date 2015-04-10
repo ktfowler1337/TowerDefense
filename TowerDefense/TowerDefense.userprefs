@@ -1,21 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\External Resources\MOBA and Tower Defense\info.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\WaveGen.cs">
     <Files>
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Enemy\Properties.cs" Line="444" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Tower\TowerBase.cs" Line="1" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Enemy\TweenMove.cs" Line="1" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\ProgressMap.cs" Line="1" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUIImpl.cs" Line="1" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Tower\Upgrade.cs" Line="1" Column="1" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUILogic.cs" Line="1" Column="1" />
-      <File FileName="Assets\External Resources\MOBA and Tower Defense\info.txt" Line="1" Column="1" />
+      <File FileName="Assets\WaveGen.cs" Line="38" Column="28" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Helpers\WaveManager.cs" Line="457" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="E:\Documents\GitHub\TowerDefense\TowerDefense\Assets\External Resources\3D Tower Defense Starter Kit\Examples\Advanced\Scripts\Adv_GUIImpl.cs" line="182" />
-      <Breakpoint file="E:\Documents\GitHub\TowerDefense\TowerDefense\Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUIImpl.cs" line="285" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

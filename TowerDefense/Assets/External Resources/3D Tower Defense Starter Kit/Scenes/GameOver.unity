@@ -250,7 +250,7 @@ MonoBehaviour:
   endMusic: {fileID: 8300000, guid: b19cf1563b6a3964a90625e3a2b22cf3, type: 3}
   stats: {fileID: 2026295643}
   btn_mainButton: {fileID: 156082468}
-  mainSceneName: Intro
+  mainSceneName: Menu
   impactProj: {fileID: 100000, guid: ee08b65a35f84254c9494c1d4c1395c1, type: 2}
 --- !u!196 &15
 NavMeshSettings:

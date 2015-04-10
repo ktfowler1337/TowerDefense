@@ -1038,6 +1038,7 @@ public class GUIImpl : MonoBehaviour
         public GameObject mainButton;       //button for activating other tower buttons
         public GameObject towerButtons;     //the parent of all tower buttons
         public GameObject powerUpButtons;   //the parent of all battle power up buttons
+		public GameObject TimeButtons;
 		
         public GameObject button_sell;      //button to sell the selected tower
         public GameObject button_upgrade;   //button to upgrade the selected tower
