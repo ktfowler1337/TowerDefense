@@ -3171,11 +3171,11 @@ MonoBehaviour:
   - FlameTower
   towerPrefabs:
   - {fileID: 159232, guid: 9929ded1eaab8cc458c88687d701f51e, type: 2}
-  - {fileID: 131542, guid: 2fd3f59aa0d09274f94714293302196c, type: 2}
+  - {fileID: 177012, guid: 159142430747b8b48a78da63c6695105, type: 2}
   - {fileID: 130690, guid: c3782156de6fa7e48a604cebbaeb6b8c, type: 2}
-  - {fileID: 107184, guid: 132dc82ef25096844a8df85533be452e, type: 2}
-  - {fileID: 106766, guid: 0fa3467cb13e226488cfb279efea8dac, type: 2}
-  - {fileID: 178324, guid: 7ad46d4eab708ea4cb232c743315e042, type: 2}
+  - {fileID: 177054, guid: 70d52779e48d68146993a33699c0f614, type: 2}
+  - {fileID: 131832, guid: 30330a4ab075ba243833c369f855749d, type: 2}
+  - {fileID: 152496, guid: e820f9e1088f42748aa72e3ac00a5911, type: 2}
   sellLoss: 50
   towerUpgrade: []
   towerBase: []
@@ -71339,8 +71339,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1108295222}
-  m_LocalRotation: {x: -.353099465, y: .158225551, z: .0607237779, w: .920107663}
-  m_LocalPosition: {x: 53.7490997, y: 32.95047, z: 191.31842}
+  m_LocalRotation: {x: .149176806, y: .162363455, z: .0248380061, w: -.975073099}
+  m_LocalPosition: {x: 49.1582451, y: 35.5541229, z: 39.9309692}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -128810,7 +128810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sharedMaterial: {fileID: 2100000, guid: 4e1467e748fa74c64b96759b3d9713ae, type: 2}
   waterQuality: 2
-  edgeBlend: 1
+  edgeBlend: 0
 --- !u!114 &1984367701
 MonoBehaviour:
   m_ObjectHideFlags: 0
