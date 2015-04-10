@@ -29,6 +29,7 @@ public class EndMenu : MonoBehaviour
 
     IEnumerator Start()
     {
+		Time.timeScale = 1;
         if (!GameObject.Find("Game Manager"))
         {
             Debug.LogWarning("EndMenu.cs can't find any game stats. Cancelling. Have you played the game?");
