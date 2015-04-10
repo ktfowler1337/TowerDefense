@@ -92,6 +92,23 @@ public class GUIImpl : MonoBehaviour
         DisableMenus();
     }
 
+	//show all tower buttons
+	public void SetSpeed()
+	{
+
+		if (Time.timeScale == 1) {
+			Time.timeScale = 2;
+			labels.speed.text = "2";
+		} else if (Time.timeScale == 2) {
+			Time.timeScale = 5;
+			labels.speed.text = "5";
+		}
+		else {
+			Time.timeScale = 1;
+			labels.speed.text = "1";
+		}
+	}
+
 
     //fade out tooltip and upgrade panel and deactivate all current selections
     public void DisableMenus()
@@ -1037,6 +1054,7 @@ public class GUIImpl : MonoBehaviour
     [System.Serializable]
     public class lbl
     {
+		public Text speed;
         public Text headerName;      //header label for the power up / tower name
         public Text properties;      //label for displaying power up / tower properties
                                         //(shared for tooltip/upgrade menu)
