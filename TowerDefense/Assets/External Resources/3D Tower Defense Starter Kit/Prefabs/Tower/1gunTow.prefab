@@ -514,45 +514,45 @@ MonoBehaviour:
   - cost:
     - 50
     radius: 15
-    damage: 5
-    shootDelay: 1
+    damage: 10
+    shootDelay: 2.20000005
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
     - 10
     radius: 16
-    damage: 5
+    damage: 12
     shootDelay: 2
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
-    - 10
+    - 15
     radius: 18
-    damage: 6
+    damage: 14
     shootDelay: 1.79999995
+    targetCount: 1
+    swapModel: {fileID: 0}
+  - cost:
+    - 350
+    radius: 20
+    damage: 40
+    shootDelay: 1.60000002
     targetCount: 1
     swapModel: {fileID: 132894, guid: 97e1639fe4b2c4147bdcc624add9e19f, type: 2}
   - cost:
-    - 10
+    - 800
     radius: 20
-    damage: 7
-    shootDelay: 1.60000002
-    targetCount: 1
-    swapModel: {fileID: 0}
-  - cost:
-    - 10
-    radius: 20
-    damage: 8
+    damage: 80
     shootDelay: 1.39999998
     targetCount: 1
-    swapModel: {fileID: 110552, guid: 4b776cd7ec5511f4ba2b513ef7c79224, type: 2}
-  - cost:
-    - 10
-    radius: 20
-    damage: 8
-    shootDelay: 2.20000005
-    targetCount: 3
     swapModel: {fileID: 0}
+  - cost:
+    - 1800
+    radius: 20
+    damage: 170
+    shootDelay: 1.20000005
+    targetCount: 1
+    swapModel: {fileID: 110552, guid: 4b776cd7ec5511f4ba2b513ef7c79224, type: 2}
 --- !u!135 &13559214
 SphereCollider:
   m_ObjectHideFlags: 1

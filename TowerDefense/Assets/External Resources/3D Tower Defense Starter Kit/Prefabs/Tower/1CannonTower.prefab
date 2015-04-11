@@ -403,47 +403,47 @@ MonoBehaviour:
   curLvl: 0
   options:
   - cost:
-    - 50
+    - 100
     radius: 16
-    damage: 5
+    damage: 7
     shootDelay: 4.5
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
-    - 10
+    - 20
     radius: 18
-    damage: 6
+    damage: 9
     shootDelay: 4.4000001
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
-    - 10
+    - 30
     radius: 20
-    damage: 7
+    damage: 11
     shootDelay: 4.30000019
     targetCount: 1
+    swapModel: {fileID: 0}
+  - cost:
+    - 700
+    radius: 21.5
+    damage: 15
+    shootDelay: 4.19999981
+    targetCount: 2
     swapModel: {fileID: 168516, guid: 43017248d12d3664889c51535e5d6ced, type: 2}
   - cost:
-    - 10
-    radius: 21.5
-    damage: 8
-    shootDelay: 4.19999981
-    targetCount: 1
-    swapModel: {fileID: 0}
-  - cost:
-    - 10
+    - 1500
     radius: 23
-    damage: 9
+    damage: 22
     shootDelay: 4.0999999
-    targetCount: 1
-    swapModel: {fileID: 184538, guid: 7adeb6eda331f9d478faf47e37a4bdd6, type: 2}
-  - cost:
-    - 10
-    radius: 25
-    damage: 10
-    shootDelay: 4
     targetCount: 2
     swapModel: {fileID: 0}
+  - cost:
+    - 3000
+    radius: 25
+    damage: 40
+    shootDelay: 4
+    targetCount: 2
+    swapModel: {fileID: 184538, guid: 7adeb6eda331f9d478faf47e37a4bdd6, type: 2}
 --- !u!114 &11430702
 MonoBehaviour:
   m_ObjectHideFlags: 1

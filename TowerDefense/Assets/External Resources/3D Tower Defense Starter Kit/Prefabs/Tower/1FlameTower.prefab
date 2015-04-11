@@ -484,32 +484,32 @@ MonoBehaviour:
   curLvl: 0
   options:
   - cost:
-    - 50
+    - 350
     radius: 12
-    damage: 3
+    damage: 2
     shootDelay: 3
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
     - 10
     radius: 18
-    damage: 6
-    shootDelay: 4.4000001
+    damage: 4
+    shootDelay: 2.79999995
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
     - 10
     radius: 20
-    damage: 7
-    shootDelay: 4.30000019
+    damage: 6
+    shootDelay: 2.79999995
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
     - 10
     radius: 21.5
-    damage: 8
-    shootDelay: 4.19999981
-    targetCount: 1
+    damage: 6
+    shootDelay: 2.5
+    targetCount: 2
     swapModel: {fileID: 122758, guid: 4db9e4726cfcb8d40aae578f89e30f72, type: 2}
   - cost:
     - 10
@@ -547,7 +547,7 @@ MonoBehaviour:
   shotAngle: 90
   lastShot: 0
   inRange: []
-  myTargets: 0
+  myTargets: 2
   shootOrder: 0
   currentTarget: {fileID: 0}
   controlMultiplier: 2
