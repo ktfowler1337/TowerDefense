@@ -520,8 +520,8 @@ MonoBehaviour:
     swapModel: {fileID: 0}
   - cost:
     - 7000
-    radius: 40
-    damage: 10
+    radius: 23
+    damage: 40
     shootDelay: 4
     targetCount: 2
     swapModel: {fileID: 178324, guid: 7ad46d4eab708ea4cb232c743315e042, type: 2}
