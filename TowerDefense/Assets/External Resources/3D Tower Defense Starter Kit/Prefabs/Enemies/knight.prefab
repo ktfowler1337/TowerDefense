@@ -2091,7 +2091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5a0587029df2445ac37fa0f8513fd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 25
+  health: 30
   maxhealth: 0
   healthbar: {fileID: 11400010}
   shield:
@@ -2112,7 +2112,7 @@ MonoBehaviour:
   dieAnim: {fileID: 7400000, guid: a69a9f41af8ad491b802e4c4783dd9cf, type: 3}
   successAnim: {fileID: 7400000, guid: 0ad577186f6b19a48a28e27db656f8f5, type: 2}
   pointsToEarn:
-  - 10
+  - 4
   damageToDeal: 5
   myMove: {fileID: 0}
   nearTowers: []
