@@ -76,7 +76,6 @@
      <Compile Include="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Helpers\SV.cs" />
      <Compile Include="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Helpers\TowerManager.cs" />
      <Compile Include="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Helpers\UVscroll.cs" />
-     <Compile Include="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Helpers\WaveGenerator.cs" />
      <Compile Include="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Helpers\WaveManager.cs" />
      <Compile Include="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Helpers\WaypointManager.cs" />
      <Compile Include="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Projectile\LaserHelper.cs" />

@@ -69,7 +69,7 @@ public class WaveGen : MonoBehaviour
 		GameObject wavesGO = GameObject.Find("Wave Manager");
 		waveScript = wavesGO.GetComponent<WaveManager>();	
 		
-		for (int waveCount = 1; waveCount < 21; waveCount++) 
+		for (int waveCount = 1; waveCount < 2; waveCount++) 
 		{
 			//create new wave option
 			WaveOptions newWave = new WaveOptions();

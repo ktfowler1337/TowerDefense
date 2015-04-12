@@ -170,8 +170,8 @@ MonoBehaviour:
     area: 1
     radius: 5
     time: 10
-    frequency: 2
-    factor: .200000003
+    frequency: 5
+    factor: 1
     stack: 0
   slow:
     enabled: 0
