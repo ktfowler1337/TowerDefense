@@ -455,7 +455,7 @@ public class WaveManager : MonoBehaviour
                 break;
         }
 
-		waveGenScript.peasant = options [0].enemyPrefab;
+		waveGenScript.peasant.HpOverride = options[0].enemyHP[0];
 
 		options = new List<WaveOptions>();	
 
@@ -465,7 +465,7 @@ public class WaveManager : MonoBehaviour
 		//create new wave option
 		WaveOptions newWave = new WaveOptions();
 
-		waveGenScript.CreateArmy(20,waveGenScript.peasant,newWave);
+		waveGenScript.CreateArmy(2,waveGenScript.peasant,newWave);
 
 		options.Add(newWave);
 

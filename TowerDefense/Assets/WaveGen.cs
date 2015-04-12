@@ -246,9 +246,9 @@ public class EnemyGroup
 
 	public PathManager path;
 
-	public int HpOverride;
+	public float HpOverride;
 
-	public int ShieldOverride;
+	public float ShieldOverride;
 
 	public CustomRange startDelayMin;
 	public CustomRange startDelayMax;
