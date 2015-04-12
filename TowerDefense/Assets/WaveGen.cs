@@ -132,7 +132,7 @@ public class WaveGen : MonoBehaviour
 		peasant = new EnemyGroup ();
 		peasant.prefab = peasantPrefab;
 
-		peasant.countAdjustment = 5;
+		peasant.countAdjustment = 1.2f;
 		peasant.startDelayMin.min = 0.5f;
 		peasant.startDelayMin.max = 1.5f;
 		peasant.startDelayMax.min = 1.6f;
@@ -145,7 +145,7 @@ public class WaveGen : MonoBehaviour
 		knight = new EnemyGroup ();
 		knight.prefab = knightPrefab;
 		
-		knight.countAdjustment = 2;
+		knight.countAdjustment = 0.3f;
 		knight.startDelayMin.min = 0.5f;
 		knight.startDelayMin.max = 1.5f;
 		knight.startDelayMax.min = 1.6f;
@@ -158,7 +158,7 @@ public class WaveGen : MonoBehaviour
 		knight2 = new EnemyGroup ();
 		knight2.prefab = knight2Prefab;
 		
-		knight2.countAdjustment = 2;
+		knight2.countAdjustment = 0.3f;
 		knight2.startDelayMin.min = 0.5f;
 		knight2.startDelayMin.max = 1.5f;
 		knight2.startDelayMax.min = 1.6f;
@@ -171,7 +171,7 @@ public class WaveGen : MonoBehaviour
 		horseKnight = new EnemyGroup ();
 		horseKnight.prefab = horseKnightPrefab;
 		
-		horseKnight.countAdjustment = 1;
+		horseKnight.countAdjustment = 0.15f;
 		horseKnight.startDelayMin.min = 0.5f;
 		horseKnight.startDelayMin.max = 1.5f;
 		horseKnight.startDelayMax.min = 1.6f;
@@ -184,7 +184,7 @@ public class WaveGen : MonoBehaviour
 		horseRome = new EnemyGroup ();
 		horseRome.prefab = horseRomePrefab;
 		
-		horseRome.countAdjustment = 1;
+		horseRome.countAdjustment = 0.15f;
 		horseRome.startDelayMin.min = 0.5f;
 		horseRome.startDelayMin.max = 1.5f;
 		horseRome.startDelayMax.min = 1.6f;
@@ -197,7 +197,7 @@ public class WaveGen : MonoBehaviour
 		dragon = new EnemyGroup ();
 		dragon.prefab = dragonPrefab;
 		
-		dragon.countAdjustment = 0.5f;
+		dragon.countAdjustment = 0.08f;
 		
 		dragon.startDelayMin.min = 0.5f;
 		dragon.startDelayMin.max = 1.5f;
@@ -215,13 +215,14 @@ public class WaveGen : MonoBehaviour
 	public void CreateArmy(int waveNum, EnemyGroup enemies, WaveOptions wave)
 	{
 		for (int x = 0; x < 4; x++) {
-			//enemies.count = (int)(((waveNum + enemies.countAdjustment) / 2)  + (UnityEngine.Random.Range(waveNum, waveNum + enemies.countAdjustment))/1.5);
-			//if (enemies.count < 1)
-			//{
-			//	enemies.count =1;	
-			//}
+//			enemies.count = (int)(((waveNum + enemies.countAdjustment) / 2)  + (UnityEngine.Random.Range(waveNum, waveNum + enemies.countAdjustment))/1.5);
+			enemies.count = (int)((UnityEngine.Random.Range(waveNum * enemies.countAdjustment, waveNum * (enemies.countAdjustment + enemies.countAdjustment/2))));
+			if (enemies.count < 1)
+			{
+				enemies.count =1;	
+			}
 
-			enemies.count =1;
+			//enemies.count =1;
 			enemies.path = Paths[x];
 			GenerateWave(enemies,wave);
 		}
