@@ -95,7 +95,7 @@ public class WaveGen : MonoBehaviour
 				CreateArmy(waveCount,horseRome,newWave);
 			}
 
-			if (wavecount > 16)
+			if (waveCount > 16)
 			{
 				//spawn dragons
 				CreateArmy(waveCount,dragon,newWave);
