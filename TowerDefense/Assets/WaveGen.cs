@@ -80,21 +80,26 @@ public class WaveGen : MonoBehaviour
 				CreateArmy(waveCount,peasant,newWave);
 			}
 
-			//should be less then 3
+
 			if (waveCount > 3 && (waveCount <= 8 || waveCount >= 10) && (waveCount <= 13 || waveCount >= 15) && (waveCount <= 18 || waveCount >= 19))
 			{
+				//spawn knights
 				CreateArmy(waveCount,knight,newWave);
 				CreateArmy(waveCount,knight2,newWave);
 			}
 
 			if (waveCount > 7 && ( waveCount <=13 || waveCount >=17))
 			{
+				//spawn horses
 				CreateArmy(waveCount,horseKnight,newWave);
 				CreateArmy(waveCount,horseRome,newWave);
 			}
-			//spawn horses
-			//if wavecount >16 spawn dragons
-			//spawn dragons
+
+			if (wavecount > 16)
+			{
+				//spawn dragons
+				CreateArmy(waveCount,dragon,newWave);
+			}
 
 			waveScript.options.Add(newWave);
 		}
