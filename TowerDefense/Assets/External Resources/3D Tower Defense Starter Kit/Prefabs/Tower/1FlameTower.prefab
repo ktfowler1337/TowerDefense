@@ -486,7 +486,7 @@ MonoBehaviour:
   - cost:
     - 400
     radius: 12
-    damage: 2
+    damage: 10
     shootDelay: 3
     targetCount: 1
     swapModel: {fileID: 0}
