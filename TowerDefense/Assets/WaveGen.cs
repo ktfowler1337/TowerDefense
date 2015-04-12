@@ -219,7 +219,12 @@ public class WaveGen : MonoBehaviour
 			enemies.count = (int)((UnityEngine.Random.Range(waveNum * enemies.countAdjustment, waveNum * (enemies.countAdjustment + enemies.countAdjustment/2))));
 			if (enemies.count < 1)
 			{
-				enemies.count =1;	
+				enemies.count = 1;	
+			}
+
+			if (enemies.count > 40)
+			{
+				enemies.count = 40;
 			}
 
 			//enemies.count =1;
