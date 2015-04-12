@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67ea5bffedd34d4aa52de5e7000e8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 100002, guid: 85ccbb9f6b852954687d628c2312e17b, type: 2}
+  projectile: {fileID: 150932, guid: 997b32abb06702e43a549a379251e21f, type: 2}
   shotPos: {fileID: 411538}
   shotSound: {fileID: 8300000, guid: dba5ae83b011a9e459d0c84f88b6825b, type: 3}
   shotFx: {fileID: 0}

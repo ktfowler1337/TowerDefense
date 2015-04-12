@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67ea5bffedd34d4aa52de5e7000e8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 100000, guid: dca7849a51fd43d4d9f2ded7dd5f2922, type: 2}
+  projectile: {fileID: 135462, guid: eaaf3b72cef3d0047b44ce581c8895cc, type: 2}
   shotPos: {fileID: 478326}
   shotSound: {fileID: 8300000, guid: 4531f9576dfa3dd4e9e8a2061d0952aa, type: 3}
   shotFx: {fileID: 100000, guid: 13c97bf652dc1da46bc3419f05190bcd, type: 2}

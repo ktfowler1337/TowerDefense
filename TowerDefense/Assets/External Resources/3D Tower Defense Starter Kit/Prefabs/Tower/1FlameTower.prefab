@@ -484,43 +484,43 @@ MonoBehaviour:
   curLvl: 0
   options:
   - cost:
-    - 350
+    - 400
     radius: 12
     damage: 2
     shootDelay: 3
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
-    - 10
+    - 100
     radius: 18
     damage: 4
     shootDelay: 2.79999995
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
-    - 10
+    - 120
     radius: 20
     damage: 6
     shootDelay: 2.79999995
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
-    - 10
+    - 2200
     radius: 21.5
-    damage: 6
+    damage: 15
     shootDelay: 2.5
     targetCount: 2
     swapModel: {fileID: 122758, guid: 4db9e4726cfcb8d40aae578f89e30f72, type: 2}
   - cost:
-    - 10
+    - 4000
     radius: 23
-    damage: 9
+    damage: 25
     shootDelay: 4.0999999
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
-    - 10
-    radius: 25
+    - 7000
+    radius: 40
     damage: 10
     shootDelay: 4
     targetCount: 2

@@ -2112,7 +2112,7 @@ MonoBehaviour:
   dieAnim: {fileID: 7400000, guid: 01902449411e34097b1e41c4c4272879, type: 3}
   successAnim: {fileID: 7400000, guid: 0ad577186f6b19a48a28e27db656f8f5, type: 2}
   pointsToEarn:
-  - 5
+  - 2
   damageToDeal: 3
   myMove: {fileID: 0}
   nearTowers: []

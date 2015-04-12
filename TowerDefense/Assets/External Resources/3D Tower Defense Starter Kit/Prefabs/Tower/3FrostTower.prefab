@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67ea5bffedd34d4aa52de5e7000e8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 100002, guid: 85ccbb9f6b852954687d628c2312e17b, type: 2}
+  projectile: {fileID: 182378, guid: 0842f85b9ee101f41ae9240c005a1b91, type: 2}
   shotPos: {fileID: 406764}
   shotSound: {fileID: 8300000, guid: dba5ae83b011a9e459d0c84f88b6825b, type: 3}
   shotFx: {fileID: 0}
