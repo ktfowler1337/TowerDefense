@@ -424,21 +424,21 @@ MonoBehaviour:
     targetCount: 1
     swapModel: {fileID: 0}
   - cost:
-    - 700
+    - 1400
     radius: 21.5
     damage: 15
     shootDelay: 4.19999981
     targetCount: 2
     swapModel: {fileID: 168516, guid: 43017248d12d3664889c51535e5d6ced, type: 2}
   - cost:
-    - 1500
+    - 3000
     radius: 23
     damage: 22
     shootDelay: 4.0999999
     targetCount: 2
     swapModel: {fileID: 0}
   - cost:
-    - 3000
+    - 6000
     radius: 25
     damage: 40
     shootDelay: 4

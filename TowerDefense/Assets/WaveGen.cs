@@ -81,21 +81,21 @@ public class WaveGen : MonoBehaviour
 			}
 
 
-			if (waveCount > 3 && (waveCount <= 8 || waveCount >= 10) && (waveCount <= 13 || waveCount >= 15) && (waveCount <= 18 || waveCount >= 19))
+			if (waveCount > 3 && (waveCount < 8 || waveCount > 10) && (waveCount < 13 || waveCount > 15) && (waveCount < 18 || waveCount > 19))
 			{
 				//spawn knights
 				CreateArmy(waveCount,knight,newWave);
 				CreateArmy(waveCount,knight2,newWave);
 			}
 
-			if (waveCount > 7 && ( waveCount <=13 || waveCount >=17))
+			if (waveCount > 7 && ( waveCount <13 || waveCount >17))
 			{
 				//spawn horses
 				CreateArmy(waveCount,horseKnight,newWave);
 				CreateArmy(waveCount,horseRome,newWave);
 			}
 
-			if (waveCount > 16)
+			if (waveCount > 12)
 			{
 				//spawn dragons
 				CreateArmy(waveCount,dragon,newWave);
@@ -215,13 +215,13 @@ public class WaveGen : MonoBehaviour
 	public void CreateArmy(int waveNum, EnemyGroup enemies, WaveOptions wave)
 	{
 		for (int x = 0; x < 4; x++) {
-			enemies.count = (int)(((waveNum + enemies.countAdjustment) / 2)  + (UnityEngine.Random.Range(waveNum, waveNum + enemies.countAdjustment))/1.5);
-			if (enemies.count < 1)
-			{
-				enemies.count =1;	
-			}
+			//enemies.count = (int)(((waveNum + enemies.countAdjustment) / 2)  + (UnityEngine.Random.Range(waveNum, waveNum + enemies.countAdjustment))/1.5);
+			//if (enemies.count < 1)
+			//{
+			//	enemies.count =1;	
+			//}
 
-			//enemies.count =1;
+			enemies.count =1;
 			enemies.path = Paths[x];
 			GenerateWave(enemies,wave);
 		}

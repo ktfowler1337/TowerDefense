@@ -2091,13 +2091,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e5a0587029df2445ac37fa0f8513fd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 27
   maxhealth: 0
   healthbar: {fileID: 11400010}
   shield:
     enabled: 0
     bar: {fileID: 0}
-    value: 10
+    value: 5
     maxValue: 0
     regenType: 0
     regenValue: 0
