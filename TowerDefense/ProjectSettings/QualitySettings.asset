@@ -15,7 +15,7 @@ QualitySettings:
     shadowCascades: 1
     shadowDistance: 15
     blendWeights: 1
-    textureQuality: 1
+    textureQuality: 0
     anisotropicTextures: 0
     antiAliasing: 0
     softParticles: 0
@@ -125,6 +125,6 @@ QualitySettings:
     BlackBerry: 0
     Standalone: 0
     WP8: 0
-    Web: 5
+    Web: 0
     Windows Store Apps: 0
     iPhone: 0
