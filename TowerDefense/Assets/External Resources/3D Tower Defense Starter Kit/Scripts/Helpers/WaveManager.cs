@@ -52,7 +52,7 @@ public class WaveManager : MonoBehaviour
     //on endless modes, this variable defines the actual wave index (entry) in the
     //WaveSettings widget, not the wave count played during this session
     private int waveIndex = 0;
-	private int waveNumber = 21;
+	private int waveNumber = 1;
     //delay between two waves - break / time to relax few seconds
     public int secBetweenWaves;
 	//increasing seconds between waves on wave start option 'interval'
@@ -323,8 +323,12 @@ public class WaveManager : MonoBehaviour
 	//then this value gets displayed on the screen by GameInfo.cs
     IEnumerator WaveTimer(float seconds)
     {
+		
+
 		// add some money per round
-		GameHandler.resources[0] += 50 + (waveIndex + 1) * 15;
+		GameHandler.resources[0] += 50 + waveNumber * 15;
+
+		waveNumber++;
 
     	//store passed in seconds value and add current playtime
     	//to get the targeted playtime value
@@ -495,7 +499,6 @@ public class WaveManager : MonoBehaviour
 
 		options.Add(newWave);
 
-		waveNumber++;
 
         
         //loop through each wave

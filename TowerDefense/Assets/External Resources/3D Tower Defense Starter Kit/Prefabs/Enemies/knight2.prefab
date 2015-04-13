@@ -1202,7 +1202,7 @@ MonoBehaviour:
   maxSpeed: 0
   tScale: 1
   pMapProperties:
-    enabled: 1
+    enabled: 0
     prefab: {fileID: 100006, guid: 3c274709890884548ad72b90df76d96f, type: 2}
     updateInterval: .25
     myID: 0

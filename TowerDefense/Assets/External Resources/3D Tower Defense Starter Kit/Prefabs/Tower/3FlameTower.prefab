@@ -491,7 +491,7 @@ MonoBehaviour:
   shotAngle: 90
   lastShot: 0
   inRange: []
-  myTargets: 0
+  myTargets: 2
   shootOrder: 0
   currentTarget: {fileID: 0}
   controlMultiplier: 2
