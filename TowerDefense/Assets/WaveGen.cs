@@ -214,7 +214,7 @@ public class WaveGen : MonoBehaviour
 	
 	public void CreateArmy(int waveNum, EnemyGroup enemies, WaveOptions wave)
 	{
-		for (int x = 0; x < 4; x++) {
+		for (int x = 0; x < 2; x++) {
 //			enemies.count = (int)(((waveNum + enemies.countAdjustment) / 2)  + (UnityEngine.Random.Range(waveNum, waveNum + enemies.countAdjustment))/1.5);
 			enemies.count = (int)((UnityEngine.Random.Range(waveNum * enemies.countAdjustment, waveNum * (enemies.countAdjustment + enemies.countAdjustment/2))));
 			if (enemies.count < 1)

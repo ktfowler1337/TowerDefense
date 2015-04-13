@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Helpers\WaveManager.cs">
     <Files>
-      <File FileName="Assets\WaveGen.cs" Line="283" Column="2" />
-      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Helpers\WaveManager.cs" Line="612" Column="2" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\Helpers\WaveManager.cs" Line="457" Column="10" />
+      <File FileName="Assets\WaveGen.cs" Line="248" Column="2" />
+      <File FileName="Assets\External Resources\3D Tower Defense Starter Kit\Scripts\GUI\GUILogic.cs" Line="89" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
