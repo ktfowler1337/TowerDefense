@@ -486,11 +486,8 @@ MonoBehaviour:
   - cost:
     - 400
     radius: 12
-<<<<<<< HEAD
     damage: 7
-=======
     damage: 2
->>>>>>> 98b2274eefe81c9b066b95133e31c5054881e107
     shootDelay: 3
     targetCount: 1
     swapModel: {fileID: 0}
