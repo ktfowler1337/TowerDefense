@@ -16,6 +16,7 @@ public class WaveManager : MonoBehaviour
 	[SerializeField]
 	WaveGen waveGenScript;  //manager reference
 
+
 	public GameObject enemyPreb;
 	
 	public PathManager Path1;
@@ -321,6 +322,9 @@ public class WaveManager : MonoBehaviour
 	//then this value gets displayed on the screen by GameInfo.cs
     IEnumerator WaveTimer(float seconds)
     {
+		// add some money per round
+		GameHandler.resources[0] += 50 + (waveIndex + 1) * 15;
+
     	//store passed in seconds value and add current playtime
     	//to get the targeted playtime value
         float timer = Time.time + seconds;
@@ -465,7 +469,7 @@ public class WaveManager : MonoBehaviour
 		//create new wave option
 		WaveOptions newWave = new WaveOptions();
 
-		waveGenScript.CreateArmy(2,waveGenScript.peasant,newWave);
+		waveGenScript.CreateArmy(20,waveGenScript.peasant,newWave);
 
 		options.Add(newWave);
 
