@@ -51,6 +51,7 @@ public class WaveManager : MonoBehaviour
     //on endless modes, this variable defines the actual wave index (entry) in the
     //WaveSettings widget, not the wave count played during this session
     private int waveIndex = 0;
+	private int waveNumber = 21;
     //delay between two waves - break / time to relax few seconds
     public int secBetweenWaves;
 	//increasing seconds between waves on wave start option 'interval'
@@ -455,7 +456,15 @@ public class WaveManager : MonoBehaviour
                 break;
         }
 
-		waveGenScript.peasant = options [0].enemyPrefab;
+		waveGenScript.peasant.HpOverride = options [0].enemyHP[0];
+		waveGenScript.knight.HpOverride = options [0].enemyHP[0];
+		waveGenScript.knight2.HpOverride = options [0].enemyHP[0];
+		waveGenScript.knight2.ShieldOverride = options [0].enemySH[0];
+		waveGenScript.horseKnight.HpOverride = options [0].enemyHP[0];
+		waveGenScript.horseRome.HpOverride = options [0].enemyHP[0];
+		waveGenScript.horseRome.ShieldOverride = options [0].enemySH[0];
+		waveGenScript.dragon.HpOverride = options [0].enemyHP[0];
+		waveGenScript.dragon.ShieldOverride = options [0].enemySH[0];
 
 		options = new List<WaveOptions>();	
 
@@ -465,9 +474,16 @@ public class WaveManager : MonoBehaviour
 		//create new wave option
 		WaveOptions newWave = new WaveOptions();
 
-		waveGenScript.CreateArmy(20,waveGenScript.peasant,newWave);
+		waveGenScript.CreateArmy(waveNumber,waveGenScript.peasant,newWave);
+		waveGenScript.CreateArmy(waveNumber,waveGenScript.knight,newWave);
+		waveGenScript.CreateArmy(waveNumber,waveGenScript.knight2,newWave);
+		waveGenScript.CreateArmy(waveNumber,waveGenScript.horseKnight,newWave);
+		waveGenScript.CreateArmy(waveNumber,waveGenScript.horseRome,newWave);
+		waveGenScript.CreateArmy(waveNumber,waveGenScript.dragon,newWave);
 
 		options.Add(newWave);
+
+		waveNumber++;
 
         
         //loop through each wave

@@ -33,6 +33,8 @@ public class GameInfo : MonoBehaviour
     //resources count label
     public Text[] lbl_resources;
 
+	private int waveNum;
+
     void Start()
     {
         //print error if waveScript is not set in editor

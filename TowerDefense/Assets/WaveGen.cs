@@ -69,7 +69,7 @@ public class WaveGen : MonoBehaviour
 		GameObject wavesGO = GameObject.Find("Wave Manager");
 		waveScript = wavesGO.GetComponent<WaveManager>();	
 		
-		for (int waveCount = 1; waveCount < 2; waveCount++) 
+		for (int waveCount = 1; waveCount < 21; waveCount++) 
 		{
 			//create new wave option
 			WaveOptions newWave = new WaveOptions();
@@ -214,7 +214,7 @@ public class WaveGen : MonoBehaviour
 	
 	public void CreateArmy(int waveNum, EnemyGroup enemies, WaveOptions wave)
 	{
-		for (int x = 0; x < 4; x++) {
+		for (int x = 0; x < 2; x++) {
 //			enemies.count = (int)(((waveNum + enemies.countAdjustment) / 2)  + (UnityEngine.Random.Range(waveNum, waveNum + enemies.countAdjustment))/1.5);
 			enemies.count = (int)((UnityEngine.Random.Range(waveNum * enemies.countAdjustment, waveNum * (enemies.countAdjustment + enemies.countAdjustment/2))));
 			if (enemies.count < 1)
@@ -246,9 +246,9 @@ public class EnemyGroup
 
 	public PathManager path;
 
-	public int HpOverride;
+	public float HpOverride;
 
-	public int ShieldOverride;
+	public float ShieldOverride;
 
 	public CustomRange startDelayMin;
 	public CustomRange startDelayMax;
