@@ -89,7 +89,7 @@ public class GameHandler : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(res.interval);
-            
+
             for (int i = 0; i < res.value.Length; i++)
             {
                 float resDiff = res.value[i];
@@ -97,7 +97,8 @@ public class GameHandler : MonoBehaviour
                     resDiff = Mathf.Round(resources[i] * res.value[i] * 100f) / 100f;
                 if (res.costType == CostType.intValue)
                     resDiff = (int)resDiff;
-                SetResources(i, resDiff);
+				if(enemiesAlive > 0 || enemiesKilled > 0)
+                	SetResources(i, resDiff);
             }
         }
     }
