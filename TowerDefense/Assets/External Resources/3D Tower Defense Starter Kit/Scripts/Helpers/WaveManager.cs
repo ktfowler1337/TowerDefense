@@ -460,7 +460,7 @@ public class WaveManager : MonoBehaviour
                 break;
         }
 
-		// if on the second endless wave, copy over hp values
+		// if on the second endless wave, copy hp and shields
 		if (waveNumber > 21) {
 			waveGenScript.peasant.HpOverride = options [0].enemyHP [0];
 
