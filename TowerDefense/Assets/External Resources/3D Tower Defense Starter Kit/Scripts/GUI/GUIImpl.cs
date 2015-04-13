@@ -323,7 +323,7 @@ public class GUIImpl : MonoBehaviour
             || gui.mobile && Input.GetMouseButtonDown(0) && SV.showUpgrade && gui.upgrade.gameObject == tower)
         {
             //attach self control script to this tower
-            EnableSelfControl();
+            //EnableSelfControl();
         }
     }
 
