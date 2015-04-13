@@ -460,19 +460,23 @@ public class WaveManager : MonoBehaviour
                 break;
         }
 
-<<<<<<< HEAD
-		waveGenScript.peasant.HpOverride = options[0].enemyHP[0];
-=======
-		waveGenScript.peasant.HpOverride = options [0].enemyHP[0];
-		waveGenScript.knight.HpOverride = options [0].enemyHP[0];
-		waveGenScript.knight2.HpOverride = options [0].enemyHP[0];
-		waveGenScript.knight2.ShieldOverride = options [0].enemySH[0];
-		waveGenScript.horseKnight.HpOverride = options [0].enemyHP[0];
-		waveGenScript.horseRome.HpOverride = options [0].enemyHP[0];
-		waveGenScript.horseRome.ShieldOverride = options [0].enemySH[0];
-		waveGenScript.dragon.HpOverride = options [0].enemyHP[0];
-		waveGenScript.dragon.ShieldOverride = options [0].enemySH[0];
->>>>>>> 7409673a121f978fd895c830ec453ffe0e06e83b
+		// if on the second endless wave, copy over hp values
+		if (waveNumber > 21) {
+			waveGenScript.peasant.HpOverride = options [0].enemyHP [0];
+
+			waveGenScript.knight.HpOverride = options [0].enemyHP [4];
+
+			waveGenScript.knight2.HpOverride = options [0].enemyHP [8];
+			waveGenScript.knight2.ShieldOverride = options [0].enemySH [8];
+
+			waveGenScript.horseKnight.HpOverride = options [0].enemyHP [12];
+
+			waveGenScript.horseRome.HpOverride = options [0].enemyHP [16];
+			waveGenScript.horseRome.ShieldOverride = options [0].enemySH [16];
+
+			waveGenScript.dragon.HpOverride = options [0].enemyHP [20];
+			waveGenScript.dragon.ShieldOverride = options [0].enemySH [20];
+		}
 
 		options = new List<WaveOptions>();	
 
